@@ -77,14 +77,14 @@ export const projects = [
     ],
   },
   {
-    title: "Machine-Learning",
+    title: "Machine-Learning: Binary classifier",
     github: "https://github.com/arteaga7/Machine-Learning",
     description: [
-      "A holistic mental health app leveraging AI and blockchain for early detection and personalized solutions for depression.",
-      "Features include social media analysis (ML-based sentiment tracking), PHQ-9 assessments, smartwatch integration for sleep and activity data, guided meditation, and smart suggestions for food, travel, music, and movies.",
-      "Developed a rewards system using MAG crypto token on Ethereum, enabling user engagement through in-app incentives.",
+      "This project analyzes the dataset of 10000 electric grids with 12 features.",
+      "Objective: To determine if the electric stability of the grid is stable (class 1) or inestable (class 0). This is, the binary classification problem is adressed in this document.",
+      "First, the exploratory data analysis (EDA) is performed to show the data features in the non-cleaned dataset. Second, the data preprocessing is performed, which consist of:\na. Filling null values and dropping duplicates.",
       "Secure storage implemented via web3.storage, IPFS, and FileCoin.",
-      "Built with React, Supabase, Node.js, Flask, and Solidity, showcasing seamless integration of health tech and blockchain.",
+      "Built on of health tech and blockchain.",
     ],
   },
 ];
