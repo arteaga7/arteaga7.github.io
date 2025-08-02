@@ -66,7 +66,7 @@ export const education = [
     degree: "Master’s Degree in Electrical Engineering: Mechatronics",
     period: "Sep 2013 - Feb 2016",
     achievements: [
-      "Thesis: Modelado, simulación y control de un robot tipo diferencial con carga no uniformemente distribuida.",
+      "Thesis: Modelado, simulación y control robusto de un robot tipo diferencial con carga no uniformemente distribuida.",
     ],
   },
   {
@@ -84,9 +84,8 @@ export const skills = {
     "Python: Pandas, OpenCV, NumPy, Matplotlib, Seaborn, SciPy, Scikit-learn, TensorFlow, Keras, PyTorch",
     "C/C++","ROS",
   ],
-  databaseAndStorage: ["PostgreSQL"],
-  cloudAndDevOps: ["AWS"],
-  toolsAndServices: ["GitHub", "Linux", "Tableau", "Jira"],
+  databaseAndCloud: ["PostgreSQL", "AWS"],
+  otherTools: ["GitHub", "Linux", "Tableau", "Jira"],
 };
 
 export const projects = [
@@ -101,7 +100,20 @@ export const projects = [
     ],
   },
   {
-    title: "Machine-Learning: Binary classifier",
+    title: "Prediction of subscription cancelation and plan recommendation for Smart Fit: A Machine-Learning Solution",
+    github: "https://github.com/arteaga7/Data-Analyst-3",
+    description: [
+      "This project analyzes the information of users in a gym (gender, location, group visits, age, lifetime, average additional charges, average class frecuency, etc.) to train machine learning models to make some predictions and clustering.",
+      "Objective: To predict if users will cancel their subscription next month and to group customers with similar characteristics to design personalized strategies for each customer type.",
+      "First, the exploratory data analysis (EDA) is performed to show the data features in the non-cleaned dataset.",
+      "Second, the data preprocessing is made, which consist of filling null values, dropping duplicates, verifying if data format is correct and processing the outliers.",
+      "Third, to create data from the previously cleaned one.",
+      "Fourth, to determine whether there is multiple collinearity in the data and any outliers that could pertur the training of the machine learning (ML) algorithms. Three different models will be built: LogisticRegression and RandomForestClassifier to predict if users will cancel their subscription next month; for clustering, KMeans to group customers with similar characteristics to design personalized strategies for each customer type. The performance of the first two algorithms is evaluated using the metrics 'accuracy', 'precision', 'recall' and using the 'silhouette value' for the 'K-means' algorithm.",
+      "Finally, conclusions are presented.",
+    ],
+  },
+  {
+    title: "Prediction of stability in electric grids in New York: A Machine-Learning Solution",
     github: "https://github.com/arteaga7/Machine-Learning",
     description: [
       "This project analyzes the dataset of 10000 electric grids with 12 features.",
@@ -113,7 +125,7 @@ export const projects = [
     ],
   },
   {
-    title: "Machine-Learning: Multi-class classifier",
+    title: "Automatic classification of digits using Python and Machine-Learning",
     github: "https://github.com/arteaga7/Machine-Learning",
     description: [
       "This project studies the dataset of 1800 data matrices (small pictures representing a digit) with 64 features.",
@@ -123,14 +135,40 @@ export const projects = [
     ],
   },
   {
-    title: "Machine-Learning: Regressor",
+    title: "Estimation of fuel consumption in cars of London: A Machine-Learning Solution",
     github: "https://github.com/arteaga7/Machine-Learning",
     description: [
       "This projects analyzes the dataset of cars with 7 features (weight, acceleration, origin, engine power, number of cylinders, year and engine displacement).",
+      "Objective: To predict the fuel consumption of the car. This is, the regression problem (to predict the value of a continuous variable) is adressed in this document.",
       "First, the exploratory data analysis (EDA) is performed to show the content of the raw dataset.",
       "Second, the data preprocessing is performed, which consist of filling null values and dropping duplicates, processing outliers and multicollinearity, converting categorical variables into binary ones and standarizating the data.",
       "Third, the training and validation of the performance of 5 different ML algorithms are compared. The ML models are: Lasso (Linear regression with L1 regularization), Ridge (Linear regression with L2 regularization), DecisionTreeRegressor, RandomForestRegressor and GradientBoostingRegressor.",
       "Finally, the best algorithim is selected for this particular dataset.",
+    ],
+  },
+  {
+    title: "The most sold video games from 1980 to 2015: Data Analysis and hypothesis test",
+    github: "https://github.com/arteaga7/Data-Analyst-1",
+    description: [
+      "This project analyzes the information of many different video games of the last 35 years. The dataset contains more than 16500 rows and 11 columns. Visualizations and hypotheses tests are performed.",
+      "Objective: To make an extensive data cleaning to perform hypotheses tests (Levene and T tests) to make decisions.",
+      "First, the exploratory data analysis (EDA) is performed to show the data in the non-cleaned datasets.",
+      "Second, the data preprocessing is made, which consist of changing the column names, filling null values, dropping duplicates, verifying if data format is correct and processing the outliers.",
+      "Third, the formal Levene and T tests are performed to determine if the following hypotheses are true: 1)Users mean score of Xbox One = Users mean score of PC and 2)Users mean score of action games = Users mean score of sport games.",
+      "Finally, some conclusions are given.",
+    ],
+  },
+  {
+    title: "Return On Marketing Investment (ROMI) analysis of sales in the Uber web site",
+    github: "https://github.com/arteaga7/Data-Analyst-2",
+    description: [
+      "This project analyzes the information of 360000 clients about their visits and buys in the Uber web site.",
+      "Objective: To make the Return On Marketing Investment (ROMI) analysis to determine how much revenue a marketing campaign is generating compared to the cost of running that campaign.",
+      "First, the exploratory data analysis (EDA) is performed to show the data in the non-cleaned datasets.",
+      "Second, the data preprocessing is made, which consist of filling null values, dropping duplicates, verifying if data format is correct and processing the outliers.",
+      "Third, to create data from the previously cleaned one.",
+      "Fourth, the Lifetime Value (LTV), the Client Acquisition Cost (CAC) and the ROMI analysis are made. The Lifetime Value to Cost of Acquisition (LTV/CAC) Ratio tells if the theoretical lifetime revenue you get from a customer is higher or lower than the sales and marketing costs needed to acquire that customer.",
+      "Finally, some conclusions are given.",
     ],
   },
 ];
@@ -144,11 +182,11 @@ export const awards = [
     position: "7-th Place",
   },
   {
-    name: "Prodigi Cognizant Hackathon",
-    issuer: "Cognizant",
-    date: "Feb 2023",
-    type: "National",
-    position: "Second Runner-up",
+    name: "Siemens Global Calendar 2011 & 2012",
+    issuer: "Siemens",
+    date: "2011 & 2012",
+    type: "International",
+    position: "Honorific Mention",
   },
   
 ];
