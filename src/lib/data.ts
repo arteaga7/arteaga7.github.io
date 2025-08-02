@@ -43,28 +43,50 @@ export const education = [
   {
     institution: "TripleTen (Bootcamp Online)",
     location: "Remote",
-    degree: "Data Scientist & Data Analyst Certification",
+    degree: "Data Scientist & Data Analyst Certificate",
     period: "Jan 2025 - Aug 2025",
     achievements: [
-      "President of the Department of Information Technology",
+      "Machine Learning models.",
+      "Visualizations and storytelling.",
+      "Data cleaning."
+    ],
+  },
+  {
+    institution: "Centro de Investigación y de Estudios Avanzados del IPN",
+    location: "Ciudad de México, México",
+    degree: "Ph. D. in Electrical Engineering: Mechatronics",
+    period: "Sep 2018 - Dec 2024",
+    achievements: [
+      "Published paper: C.A. Arteaga-Escamilla, R. Castro-Linares and J. Álvarez-Gallegos. Trajectory Tracking of Multiple Quadrotors While Maintaining Time-Varying Spatial Formations Via Synchronization. Latin American Symposium on Industrial and Robotic Systems. Springer, Cham. September 2019.",
+    ],
+  },
+  {
+    institution: "Centro de Investigación y de Estudios Avanzados del IPN",
+    location: "Ciudad de México, México",
+    degree: "Master’s Degree in Electrical Engineering: Mechatronics",
+    period: "Sep 2013 - Feb 2016",
+    achievements: [
+      "Thesis: Modelado, simulación y control de un robot tipo diferencial con carga no uniformemente distribuida.",
+    ],
+  },
+  {
+    institution: "Tecnológico Nacional de México Campus Ciudad Hidalgo",
+    location: "Ciudad Hidalgo, Michoacán",
+    degree: "Bachelor’s Degree in Mechatronics Engineering",
+    period: "Aug 2008 - Sep 2013",
+    achievements: [
+      "Thesis: Diseño y control de una máquina-herramienta de dimensiones reducidas.",
     ],
   },
 ];
 export const skills = {
   programmingLanguages: [
-    "Python",
+    "Python: Pandas, OpenCV, NumPy, Matplotlib, Seaborn, SciPy, Scikit-learn, TensorFlow, Keras, PyTorch",
+    "C/C++","ROS",
   ],
-  frontendDevelopment: [
-    "ROS",
-    "Reactjs",
-  ],
-  backendDevelopment: ["Nodejs", "Expressjs"],
-  databaseAndStorage: ["PostgreSQL", "Drizzle (ORM)"],
+  databaseAndStorage: ["PostgreSQL"],
   cloudAndDevOps: ["AWS"],
-  toolsAndServices: [
-    "Clerk (Auth)",
-
-  ],
+  toolsAndServices: ["GitHub", "Linux", "Tableau", "Jira"],
 };
 
 export const projects = [
