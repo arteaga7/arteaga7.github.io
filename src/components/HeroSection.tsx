@@ -122,15 +122,10 @@ export default function HeroSection() {
           <div className="bg-gradient-to-r from-purple-500/10 to-pink-500/10 backdrop-blur-sm backdrop-filter p-4 rounded-lg border border-purple-500/20 dark:border-purple-500/10 shadow-sm">
             <p className="text-muted-foreground pl-4 py-2 mb-4 relative">
               <span className="absolute left-0 top-0 h-full w-1 bg-gradient-to-b from-purple-500 to-pink-500 rounded-full"></span>
-              🚀 Passionate software engineer with a versatile skill set
-              spanning multiple domains. I thrive on solving complex challenges
-              across different platforms and environments, adapting quickly to
-              new technologies and methodologies. My holistic approach combines
-              technical expertise with creative problem-solving, allowing me to
-              develop solutions that are both innovative and practical. I'm
-              driven by continuous learning and a commitment to excellence,
-              whether working independently or collaborating with diverse teams
-              to create impactful, scalable solutions.
+              🚀 PhD in Mechatronics with solid experience in test automation for the automotive sector and creation of Machine
+              Learning models to automatically validate evidence in tests implementing the ISTQB methodology, Python libraries
+              such as OpenCV, Pandas, NumPy, Matplotlib, Scikit-learn, Seaborn, SciPy, TensorFlow, Keras, PyTorch and other tools
+              such as SQL, AWS, GitHub, Linux, Jira to increase productivity, reduce human error and delivery time.
             </p>
           </div>
         </MotionWrapper>

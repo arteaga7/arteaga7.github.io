@@ -8,18 +8,19 @@ export const personalInfo = {
 
 export const workExperience = [
   {
-    company: "Ford Motor Company | ALTEN Group",
+    company: "Ford Motor Company (ALTEN Group)",
     location: "Hybrid",
     position: "HIL Test Intermediate Engineer",
     period: "Jan 2023 - Jul 2025",
+    Responsabilities:[
+      "Create Python scripts to automate tests and save their respective evidence.",
+      "Create machine learning models to automatically validate testing evidence (photos and videos).",
+    ],
     achievements: [
       "Designed and implemented business logic for AWS Lambdas using the Serverless Framework, forming the backbone of the application's functionality and ensuring seamless backend operations.",
       "Built a comprehensive admin panel for managing content, user data, and analytics.",
       "Contributed to the development and integration of a scalable CMS for managing blog content and other platform data.",
       "Reduced database costs by introducing materialized views, optimizing query performance and resource usage.",
-      "Drove the integration of a custom affiliate marketing system, enabling seamless tracking and reporting of referrals and user activities.",
-      "Integrated Text-to-Speech (TTS) services for enhanced user experiences, optimizing both frontend and backend systems.",
-      "Collaborated with cross-functional teams to deliver high-quality features, actively reviewing pull requests to ensure code quality, adherence to standards, and efficient implementation.",
     ],
   },
   {
