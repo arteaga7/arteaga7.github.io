@@ -1,17 +1,17 @@
 export const personalInfo = {
-  name: "Rishikesh S",
-  location: "Coimbatore, India",
-  email: "rkesh2003@gmail.com",
-  github: "https://github.com/rishikesh2003",
-  linkedin: "https://www.linkedin.com/in/rishikeshs/",
+  name: "Antonio Arteaga",
+  location: "Mexico City, Mexico",
+  email: "cruz.antonio.a.e@gmail.com",
+  github: "https://github.com/arteaga7",
+  linkedin: "https://www.linkedin.com/in/antonioarteaga-datascientist/",
 };
 
 export const workExperience = [
   {
-    company: "Chatbyte GmbH",
-    location: "Remote",
-    position: "Software Engineer",
-    period: "Mar 2024 - Present",
+    company: "Ford Motor Company | ALTEN Group",
+    location: "Hybrid",
+    position: "HIL Test Intermediate Engineer",
+    period: "Jan 2023 - Jul 2025",
     achievements: [
       "Designed and implemented business logic for AWS Lambdas using the Serverless Framework, forming the backbone of the application's functionality and ensuring seamless backend operations.",
       "Built a comprehensive admin panel for managing content, user data, and analytics.",
