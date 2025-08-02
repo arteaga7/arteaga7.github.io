@@ -72,8 +72,10 @@ export const projects = [
     title: "YouTube Channel: Robotica",
     github: "https://www.youtube.com/@robotica9066",
     description: [
-      "YouTube channel about advanced mathematics, mechatronics, control, and robotics.",
-
+      "Description: YouTube channel about advanced mathematics, mechatronics, control, and robotics.",
+      "Technologies Used: Python, ROS, Gazebo Simulator, Matlab/Simulink, C/C++.",
+      "Key Responsibilities: Creation of the YouTube Channel with 38 videos.",
+      "Impact/Achievements: 935 subscribers.",
     ],
   },
   {
@@ -82,20 +84,42 @@ export const projects = [
     description: [
       "This project analyzes the dataset of 10000 electric grids with 12 features.",
       "Objective: To determine if the electric stability of the grid is stable (class 1) or inestable (class 0). This is, the binary classification problem is adressed in this document.",
-      "First, the exploratory data analysis (EDA) is performed to show the data features in the non-cleaned dataset. Second, the data preprocessing is performed, which consist of:\na. Filling null values and dropping duplicates.",
-      "Secure storage implemented via web3.storage, IPFS, and FileCoin.",
-      "Built on of health tech and blockchain.",
+      "First, the exploratory data analysis (EDA) is performed to show the data features in the non-cleaned dataset.",
+      "Second, the data preprocessing is performed, which consist of filling null values and dropping duplicates, processing outliers and multicollinearity, converting categorical variables into binary ones and scaling the data.",
+      "Third, the training and validation of the performance of 4 different ML algorithms are compared to solve the binary classification problem. The ML models are: Logistic Regression, Decision Tree Classifier, Random Forest Classifier, Gradient Boosting Classifier.",
+      "Finally, the best algorithim is selected for this particular dataset.",
+    ],
+  },
+  {
+    title: "Machine-Learning: Multi-class classifier",
+    github: "https://github.com/arteaga7/Machine-Learning",
+    description: [
+      "This project studies the dataset of 1800 data matrices (small pictures representing a digit) with 64 features.",
+      "Objective: To solve the multi-class classification problem, which consist of determining what category the digit belongs to. There are 10 categories, corresponding to every digit (from 0 to 9).",
+      "The dataset is imported from the sklearn library, hence, the exploratory data analysis (EDA) is ommited. Then, the performance of 3 different ML algorithms are compared: KNeighborsClassifier, SVC, GaussianNB.",
+      "Finally, the best algorithim is selected for this particular dataset.",
+    ],
+  },
+  {
+    title: "Machine-Learning: Regressor",
+    github: "https://github.com/arteaga7/Machine-Learning",
+    description: [
+      "This projects analyzes the dataset of cars with 7 features (weight, acceleration, origin, engine power, number of cylinders, year and engine displacement).",
+      "First, the exploratory data analysis (EDA) is performed to show the content of the raw dataset.",
+      "Second, the data preprocessing is performed, which consist of filling null values and dropping duplicates, processing outliers and multicollinearity, converting categorical variables into binary ones and standarizating the data.",
+      "Third, the training and validation of the performance of 5 different ML algorithms are compared. The ML models are: Lasso (Linear regression with L1 regularization), Ridge (Linear regression with L2 regularization), DecisionTreeRegressor, RandomForestRegressor and GradientBoostingRegressor.",
+      "Finally, the best algorithim is selected for this particular dataset.",
     ],
   },
 ];
 
 export const awards = [
   {
-    name: "IEEE YESIST12 Hackathon",
-    issuer: "IEEE",
-    date: "Sep 2022",
+    name: "ANA Avatar XPRIZE global competition",
+    issuer: "ANA Avatar XPRIZE",
+    date: "Nov 2023",
     type: "International",
-    position: "Second Place",
+    position: "7-th Place",
   },
   {
     name: "Prodigi Cognizant Hackathon",
@@ -104,39 +128,5 @@ export const awards = [
     type: "National",
     position: "Second Runner-up",
   },
-  {
-    name: "Cisco Thingqbator Hackathon",
-    issuer: "Cisco",
-    date: "Jan 2023",
-    type: "National",
-    position: "First Runner-up",
-  },
-  {
-    name: "Innovators Day",
-    issuer: "Sri Manakula Vinayagar Engineering College, Pondicherry",
-    date: "Sep 2022",
-    type: "National",
-    position: "First Prize",
-  },
-  {
-    name: "KG Hackfest'22",
-    issuer: "KGiSL Institute of Technology, Coimbatore",
-    date: "Sep 2022",
-    type: "National",
-    position: "Second Prize",
-  },
-  {
-    name: "Innohacks'22",
-    issuer: "Innogeeks, KIET Group of Institutions, New Delhi",
-    date: "May 2022",
-    type: "National",
-    position: "Second Runner-up",
-  },
-  {
-    name: "Hack @ SKCET",
-    issuer: "Hackclub SKCET, SKCET, Coimbatore",
-    date: "Feb 2022",
-    type: "National",
-    position: "Most Impactful Hack",
-  },
+  
 ];
