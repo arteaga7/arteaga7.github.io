@@ -101,7 +101,7 @@ export const projects = [
   },
   {
     title: "Prediction of subscription cancelation and plan recommendation for Smart Fit: A Machine-Learning Solution",
-    github: "https://github.com/arteaga7/Data-Analyst-3",
+    github: "https://github.com/arteaga7/Project13",
     description: [
       "This project analyzes the information of users in a gym (gender, location, group visits, age, lifetime, average additional charges, average class frecuency, etc.) to train machine learning models to make some predictions and clustering.",
       "Objective: To predict if users will cancel their subscription next month and to group customers with similar characteristics to design personalized strategies for each customer type.",
@@ -114,7 +114,7 @@ export const projects = [
   },
   {
     title: "Prediction of stability in electric grids in New York: A Machine-Learning Solution",
-    github: "https://github.com/arteaga7/Machine-Learning",
+    github: "https://github.com/arteaga7/ML-Binary-Classifier",
     description: [
       "This project analyzes the dataset of 10000 electric grids with 12 features.",
       "Objective: To determine if the electric stability of the grid is stable (class 1) or inestable (class 0). This is, the binary classification problem is adressed in this document.",
@@ -126,7 +126,7 @@ export const projects = [
   },
   {
     title: "Automatic classification of digits using Python and Machine-Learning",
-    github: "https://github.com/arteaga7/Machine-Learning",
+    github: "https://github.com/arteaga7/ML-Multi-class-Classifier",
     description: [
       "This project studies the dataset of 1800 data matrices (small pictures representing a digit) with 64 features.",
       "Objective: To solve the multi-class classification problem, which consist of determining what category the digit belongs to. There are 10 categories, corresponding to every digit (from 0 to 9).",
@@ -136,7 +136,7 @@ export const projects = [
   },
   {
     title: "Estimation of fuel consumption in cars of London: A Machine-Learning Solution",
-    github: "https://github.com/arteaga7/Machine-Learning",
+    github: "https://github.com/arteaga7/ML-Regressor",
     description: [
       "This projects analyzes the dataset of cars with 7 features (weight, acceleration, origin, engine power, number of cylinders, year and engine displacement).",
       "Objective: To predict the fuel consumption of the car. This is, the regression problem (to predict the value of a continuous variable) is adressed in this document.",
@@ -148,7 +148,7 @@ export const projects = [
   },
   {
     title: "The most sold video games from 1980 to 2015: Data Analysis and hypothesis test",
-    github: "https://github.com/arteaga7/Data-Analyst-1",
+    github: "https://github.com/arteaga7/Project6",
     description: [
       "This project analyzes the information of many different video games of the last 35 years. The dataset contains more than 16500 rows and 11 columns. Visualizations and hypotheses tests are performed.",
       "Objective: To make an extensive data cleaning to perform hypotheses tests (Levene and T tests) to make decisions.",
@@ -160,7 +160,7 @@ export const projects = [
   },
   {
     title: "Return On Marketing Investment (ROMI) analysis of sales in the Uber web site",
-    github: "https://github.com/arteaga7/Data-Analyst-2",
+    github: "https://github.com/arteaga7/Project9",
     description: [
       "This project analyzes the information of 360000 clients about their visits and buys in the Uber web site.",
       "Objective: To make the Return On Marketing Investment (ROMI) analysis to determine how much revenue a marketing campaign is generating compared to the cost of running that campaign.",
